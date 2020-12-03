@@ -255,7 +255,9 @@
         <item name="help_next_background">@color/help_fragment_next_light</item>
         <item name="help_problem_background">@drawable/help_fragment_problem_background_light</item>
 
-        <item name="conversation_background">@color/core_white</item>
+
+
+        <item name="conversation_background">@color/core_grey_05</item>  <!--        pieter change-->
         <item name="conversation_editor_background">#22000000</item>
         <item name="conversation_editor_text_color">#ff111111</item>
         <item name="conversation_input_background">@drawable/compose_background_light</item>
@@ -335,14 +337,14 @@
         <item name="reactions_pill_selected_text_color">@color/core_grey_75</item>
         <item name="reactions_screen_shade_color">@color/transparent_black_40</item>
 
-        <item name="conversation_item_bubble_background">@color/core_grey_05</item>
-        <item name="conversation_item_sent_text_primary_color">@color/core_grey_90</item>
-        <item name="conversation_item_sent_text_secondary_color">@color/core_grey_60</item>
+        <item name="conversation_item_bubble_background">@color/core_white</item> <!--        pieter change core_grey_05-->
+        <item name="conversation_item_sent_text_primary_color">@color/core_black</item> <!--        pieter change core_grey_90-->
+        <item name="conversation_item_sent_text_secondary_color">@color/core_grey_90</item> <!--        pieter change core_grey_60-->
         <item name="conversation_item_sent_icon_color">@color/core_grey_60</item>
         <item name="conversation_item_sent_download_icon_color">@color/core_grey_60</item>
         <item name="conversation_item_sent_text_indicator_tab_color">#99000000</item>
-        <item name="conversation_item_received_text_primary_color">@color/core_white</item>
-        <item name="conversation_item_received_text_secondary_color">@color/transparent_white_80</item>
+        <item name="conversation_item_received_text_primary_color">@color/core_black</item> <!--        pieter change core_white-->
+        <item name="conversation_item_received_text_secondary_color">@color/transparent_black_60</item>
         <item name="conversation_item_update_text_color">@color/core_grey_60</item>
         <item name="conversation_item_last_seen_text_color">?attr/title_text_color_primary</item>
         <item name="conversation_item_last_seen_line_color">@color/core_grey_45</item>
@@ -597,14 +599,14 @@
 
         <item name="conversation_group_member_name">#99ffffff</item>
 
-        <item name="conversation_item_bubble_background">@color/core_grey_75</item>
-        <item name="conversation_item_sent_text_primary_color">@color/core_grey_05</item>
-        <item name="conversation_item_sent_text_secondary_color">@color/core_grey_25</item>
+        <item name="conversation_item_bubble_background">@color/core_grey_05</item>
+        <item name="conversation_item_sent_text_primary_color">@color/core_black</item>   <!--        pieter change core_grey_05-->
+        <item name="conversation_item_sent_text_secondary_color">@color/core_black</item> <!--        pieter change core_grey_25-->
         <item name="conversation_item_sent_icon_color">@color/core_grey_25</item>
         <item name="conversation_item_sent_download_icon_color">@color/core_white</item>
         <item name="conversation_item_sent_text_indicator_tab_color">#99ffffff</item>
-        <item name="conversation_item_received_text_primary_color">@color/transparent_white_90</item>
-        <item name="conversation_item_received_text_secondary_color">@color/transparent_white_60</item>
+        <item name="conversation_item_received_text_primary_color">@color/transparent_black</item>   <!--        pieter change transparent_white_90-->
+        <item name="conversation_item_received_text_secondary_color">@color/transparent_black_60</item> <!--        pieter change transparent_white_60-->
         <item name="conversation_item_sent_indicator_text_background">@drawable/conversation_item_sent_indicator_text_shape_dark</item>
         <item name="conversation_item_update_text_color">@color/core_grey_45</item>
         <item name="conversation_item_last_seen_text_color">?title_text_color_primary</item>
